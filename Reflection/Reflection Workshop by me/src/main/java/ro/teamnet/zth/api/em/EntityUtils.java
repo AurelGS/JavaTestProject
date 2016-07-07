@@ -27,28 +27,28 @@ public class EntityUtils {
 
     }
 
-    public static List<ColumnInfo> getColumns(Class entity){
-
-        Field[] allFields = entity.getDeclaredFields();
-        List<ColumnInfo> colInfo = new ArrayList<>();
-        for (Field field : allFields)
-        {
-            ColumnInfo info = new ColumnInfo();
-            if( field.getAnnotation(Id.class) != null)
-                info.setisId(true);
-            else
-            {
-                info.setColumnName(field.getName());
-                info.setisId(false);
-                info.getColumnType(field.getType());
+    public static List<ColumnInfo> getColumns(Class entity) {
+        List<ColumnInfo> columns = new ArrayList<>();
+        Field[] fields = entity.getDeclaredFields();
+        for(Field field : fields) {
+            Column column = field.getAnnotation(Column.class);
+            ColumnInfo columnInfo = new ColumnInfo();
+            columnInfo.setColumnName(field.getName());
+            columnInfo.setColumnType(field.getType());
+            if(column != null) {
+                columnInfo.setDbName(column.name());
+            } else {
+                Id id = field.getAnnotation(Id.class);
+                columnInfo.setDbName(id.name());
+                columnInfo.setisId(true);
             }
-            colInfo.add(info);
+            columns.add(columnInfo);
         }
-        return colInfo;
+        return columns;
     }
 
     public static Object castFromSqlType(Object value, Class wantedType){
-        if (value.getClass().equals(BigDecimal.class) && wantedType.getClass().equals(Integer.class)){
+        if (value.getClass().equals(BigDecimal.class) && wantedType.equals(Integer.class)){
             return ((BigDecimal) value).intValue();
         } else if (value.getClass().equals(BigDecimal.class) && wantedType.equals(Long.class)){
             return ((BigDecimal) value).longValue();
@@ -73,6 +73,7 @@ public class EntityUtils {
         return list;
     }
 
+    /*
     public static Object getSqlValue(Object object){
         if(object.getClass().getAnnotations(Table.class) != null)
         {
@@ -85,5 +86,6 @@ public class EntityUtils {
 
     return
     }
+*/
 
 }

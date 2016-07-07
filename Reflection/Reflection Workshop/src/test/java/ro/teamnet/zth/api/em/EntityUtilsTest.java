@@ -3,6 +3,8 @@ package ro.teamnet.zth.api.em;
 import org.junit.Test;
 import ro.teamnet.zth.api.annotations.Column;
 import ro.teamnet.zth.appl.domain.Department;
+
+import java.math.BigDecimal;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 
@@ -18,6 +20,13 @@ public class EntityUtilsTest {
     public void testGetColumnsMethod() {
         List<ColumnInfo> columns = EntityUtils.getColumns(Department.class);
         assertEquals(3, columns.size());
+    }
+
+    @Test
+    public void testCastFromSqlType() {
+        BigDecimal value = new BigDecimal(1.0);
+        Object result = EntityUtils.castFromSqlType(value, Integer.class);
+        assertEquals("Type is not Integer!", Integer.class, result.getClass());
     }
 
     @Test
