@@ -36,7 +36,7 @@
       <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="204">
               <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="EntityUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="731">
               <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityUtils.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EntityUtils.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Reflection Workshop/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="-413">
               <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityUtilsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EntityUtilsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="552">
               <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -179,21 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Reflection Workshop">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -461,6 +446,21 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Reflection Workshop">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -779,9 +779,12 @@
     <history-entry file="EntityUtilsTest - 2016.07.08 at 02h 24m 52s.xml">
       <configuration name="EntityUtilsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EntityUtilsTest - 2016.07.08 at 11h 01m 59s.xml">
+      <configuration name="EntityUtilsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -790,9 +793,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2457356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24840085" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -840,6 +843,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Reflection Workshop/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Reflection Workshop/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
@@ -852,10 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,10 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,10 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,10 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,10 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,10 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,7 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,10 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1078,17 +1107,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/appl/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="204">
           <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1103,30 +1148,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="50" column="68" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Reflection Workshop/src/main/java/ro/teamnet/zth/api/em/EntityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
+        <state relative-caret-position="-413">
           <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ro/teamnet/zth/api/em/EntityUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="75" selection-start-line="36" selection-start-column="75" selection-end-line="36" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
