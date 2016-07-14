@@ -12,6 +12,7 @@
     <form id="form1" name="hello" action="hello">
         <label for="user">User:</label>
         <input type="text" id="user" name="user"/>
+        <input type="submit" value="Login" />
     </form>
 
 </div>
