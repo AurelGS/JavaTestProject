@@ -90,7 +90,7 @@ public class DispatcherServlet extends HttpServlet {
         MethodAttributes methodAttributes = allowedMethods.get(path);
 
         if(methodAttributes == null){
-            return "No Method";
+            return "No Method for given link!";
         }
 
         String ctrlName = methodAttributes.getControllerClass();
@@ -100,6 +100,7 @@ public class DispatcherServlet extends HttpServlet {
             Method method = ctrlClass.getMethod(methodAttributes.getMethodName());
             Object result = method.invoke(ctrlInstance);
             return result;
+
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
@@ -111,7 +112,7 @@ public class DispatcherServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        return "Bad Link";
+        return "Internal Error!";
     }
 
     private void reply(Object obj, HttpServletRequest req, HttpServletResponse resp) throws IOException {
