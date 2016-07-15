@@ -22,7 +22,7 @@
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
             <version>${ojdbc6.version}</version>
-            <scope>provided</scope>
+            <!--<scope>provided</scope>-->
         </dependency>
 
         <dependency>
@@ -31,6 +31,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-jaxrs</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all -->
         <dependency>
@@ -66,6 +73,7 @@
                     <url>http://192.168.99.100:49100/manager/text</url>
                     <username>tomcat</username>
                     <password>tomcat</password>
+                    <port>9090</port>
                     <path>/app</path>
                 </configuration>
             </plugin>
