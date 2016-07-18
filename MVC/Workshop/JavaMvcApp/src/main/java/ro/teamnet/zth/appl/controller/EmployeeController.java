@@ -6,7 +6,6 @@ import ro.teamnet.zth.api.annotations.MyRequestParam;
 
 import ro.teamnet.zth.appl.domain.Employee;
 import ro.teamnet.zth.appl.service.EmployeeService;
-import ro.teamnet.zth.appl.service.EmployeeServiceImpl;
 
 import java.util.List;
 
@@ -14,7 +13,11 @@ import java.util.List;
 
 public class EmployeeController {
 
-    private final EmployeeService employeeService = new EmployeeServiceImpl();
+    private final EmployeeService employeeService;
+
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
 
     @MyRequestMethod(urlPath = "/one")
     public Employee getOneEmployee(@MyRequestParam(name="id") Long id) {

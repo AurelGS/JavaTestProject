@@ -1,10 +1,13 @@
-package ro.teamnet.zth.appl.service;
+package ro.teamnet.zth.appl.service.impl;
 
+import ro.teamnet.zth.api.annotations.MyService;
 import ro.teamnet.zth.appl.dao.EmployeeDao;
 import ro.teamnet.zth.appl.domain.Employee;
+import ro.teamnet.zth.appl.service.EmployeeService;
 
 import java.util.List;
 
+@MyService
 public class EmployeeServiceImpl implements EmployeeService {
 
     private EmployeeDao employeeDao = new EmployeeDao();

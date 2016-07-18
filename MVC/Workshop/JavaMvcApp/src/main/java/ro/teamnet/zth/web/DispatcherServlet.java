@@ -7,6 +7,7 @@ import org.codehaus.jackson.map.SerializationConfig;
 import ro.teamnet.zth.api.annotations.MyController;
 import ro.teamnet.zth.api.annotations.MyRequestMethod;
 import ro.teamnet.zth.api.annotations.MyRequestParam;
+import ro.teamnet.zth.api.annotations.MyService;
 import ro.teamnet.zth.fmk.AnnotationScanUtils;
 import ro.teamnet.zth.fmk.MethodAttributes;
 
@@ -59,6 +60,40 @@ public class DispatcherServlet extends HttpServlet {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        /*
+        try {
+            Iterable<Class> services = AnnotationScanUtils.getClasses("ro.teamnet.zth.appl.service.impl");
+            for (Class service : services)
+            {
+                if(service.isAnnotationPresent(MyService.class)){
+                    MyService myServiceAnn = (MyService) service.getAnnotation(MyService.class);
+                    String serviceUrlPath = myServiceAnn.urlPath();
+
+                    Method[] ctrlMethods = controller.get();
+                    for (Method ctrlMethod:ctrlMethods) {
+                        if(ctrlMethod.isAnnotationPresent(MyRequestMethod.class)){
+                            {
+                                MyRequestMethod myReqAnn = ctrlMethod.getAnnotation(MyRequestMethod.class);
+                                String methodUrlPath = myReqAnn.urlPath();
+
+                                String urlPath = ctrlUrlPath + methodUrlPath;
+                                MethodAttributes methodAttributes = new MethodAttributes();
+                                methodAttributes.setControllerClass(controller.getName());
+                                methodAttributes.setMethodType(myReqAnn.methodType());
+                                methodAttributes.setMethodName(ctrlMethod.getName());
+                                methodAttributes.setParameterTypes(ctrlMethod.getParameterTypes());
+                                allowedMethods.put(urlPath, methodAttributes);
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
 
     }
 
